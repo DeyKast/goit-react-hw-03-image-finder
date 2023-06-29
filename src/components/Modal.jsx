@@ -15,8 +15,8 @@ class Modal extends Component {
     }
   };
 
-  handleCloseModal = () => {
-    this.props.closeModal();
+  handleCloseModal = event => {
+    if (event.target === event.currentTarget) this.props.closeModal();
   };
 
   render() {
