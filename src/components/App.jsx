@@ -1,7 +1,7 @@
 import { Component } from 'react';
 
 import './css/styles.css';
-import SearchPhotos from './FetchAPI';
+import SearchPhotos from '../service/FetchAPI';
 import Searchbar from './Searchbar';
 import ImageGalleryItem from './ImageGalleryItem';
 import LoadMoreButton from './Button';
